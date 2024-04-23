@@ -33,7 +33,7 @@ def DrawBoard(theme):
     player1_color = theme['player1']
     player2_color = theme['player2']
     
-    #added a border to the board game and changed "%c" to "%s" to accept string
+  #added a border to the board game and changed "%c" to "%s" to accept string
  # Draw the game board with colored elements
     print(border_color + " _________________")
     print("|  _____________  |")
@@ -69,7 +69,10 @@ def CheckWin():
     else:            
         Game=Running  
    
-
+# Added a welcome and excitement message.
+print("Welcome to Tic-Tac-Toe!")
+print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
+print("May the best player win! Have fun!")
 
 
 # Added describing the rules of the game for players who haven't played the game before.
