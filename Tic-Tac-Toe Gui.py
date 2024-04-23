@@ -103,7 +103,12 @@ print()
 print()    
 print("Please Wait...")    
 time.sleep(3)
-           
+
+# Prompt for theme selection
+print("Select a theme:")
+for theme_num, _ in themes.items():
+    print(theme_num)
+selected_theme = int(input("Enter the theme number: "))
 
 
 os.system('cls')    
