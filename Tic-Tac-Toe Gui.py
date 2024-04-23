@@ -143,7 +143,7 @@ elif(Game == Win):
     player -= 1    
     if(player % 2 != 0): 
         
-         # Added ASCII "congrats" art to player that wins   
+    # Added ASCII "congrats" art to player that wins   
         print(player_1, "Has won!")
         print('                                 _ ')      
         print('                                | | ')     
