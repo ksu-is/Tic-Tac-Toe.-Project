@@ -8,8 +8,8 @@
 
 # Sprint 2:
 - NOTE: Fixed_Tic-tac-Toe Gui.py is used to make changes on first, and then once finalized the changes are then transfered to Tic-Tac-Toe Gui.py
-- [ ] make small updates and commit messages in repository
-- [ ] 6 code changes from Mona
+- [x] make small updates and commit messages in repository
+- [x] 6 code changes from Mona
     - [x] 1
     - [x] 2
     - [x] 3
