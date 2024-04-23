@@ -163,3 +163,7 @@ elif(Game == Win):
         print(' |___|___||_| |_||__, |_|  |__,_||__|___|')
         print('                  __| |                  ')
         print('                 |___|                   ')
+
+# After the game loop ends, add a goodbye message
+print("\nThank you for playing Tic-Tac-Toe!")
+print("Goodbye and see you next time!")
