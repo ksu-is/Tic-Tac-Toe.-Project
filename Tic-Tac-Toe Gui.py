@@ -110,7 +110,24 @@ for theme_num, _ in themes.items():
     print(theme_num)
 selected_theme = int(input("Enter the theme number: "))
 
+# Use the selected theme when drawing the board
+selected_theme = themes.get(selected_theme, themes[1])  # Default to theme 1 if an invalid theme number is entered
 
+while(Game == Running):    
+    os.system('cls')    
+    DrawBoard(selected_theme)    
+    if(player % 2 != 0):    
+        print(player_1 + "-Player 1's chance")    
+        Mark = player1_mark    
+    else:    
+        print(player_2 + "-Player 2's chance")    
+        Mark = player2_mark    
+    choice = int(input("Enter the position between [1-9] where you want to mark : "))    
+    if(CheckPosition(choice)):    
+        board[choice] = Mark    
+        player+=1    
+        CheckWin() 
+        
 os.system('cls')    
 DrawBoard(selected_theme)    
 if(Game == Draw):    
